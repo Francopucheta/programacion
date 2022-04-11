@@ -2,3 +2,7 @@ bananas
 manzanas
 peras
 melon
+pan
+facturas 
+fruttillas 
+huevos
