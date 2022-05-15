@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea1js</title>
+</head>
+
+<body>
+    <script>
+        // var nombre;
+        // var lugar;
+
+        // nombre = prompt('Ingrese nombre:', '');
+        // nota = prompt('Ingrese su nota:', '');
+
+        // if (nota >= 4) {
+        //     document.write(nombre + ' esta aprobado con un ' + nota);
+        // } else {
+        //     document.write(nombre + ' esta desaprobado con un ' + nota);
+        // }
+    </script>
+    <script>
+        var nombre;
+        var destino;
+        var origen;
+        var distancia;
+        var escala;
+        nombre = prompt('Ingrese su nombre:', ''); // prompt > Cada vez que necesitamos ingresar un dato con esta función, aparece una ventana donde cargamos el valor.
+
+        destino = prompt('Ingrese su destino:', '');
+        origen = prompt('Ingrese su origen:', '');
+        distancia = prompt('Ingrese su distancia a recorrer:', '');
+        // escala = prompt('Ingrese su mts, u o Kms:', '');
+        distancia = parseInt(distancia)
+
+        document.write('Hola ');
+        document.write(nombre);
+        document.write(' si quieres visitar ');
+        document.write(destino);
+        document.write(' te recomiendo que  ');
+
+        if (distancia < 1000) { document.write(' camines, es un buen ejercicio '); }
+
+        else {
+            if (distancia > 1000, distancia < 10000)
+                document.write('uses la bici ');
+
+
+            else {
+                if (distancia > 10000, distancia < 30000) {
+                    document.write('busques el colectivo que se dirija hacia alli ');
+                }
+
+
+
+
+                else {
+                    if (distancia > 30000, distancia < 100000) { document.write('lo recorras en auto.') }
+
+
+                    else {
+                        if (distancia > 100000) {
+                            document.write('compres un pasaje de avion.')
+                        }
+
+                    }
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>
