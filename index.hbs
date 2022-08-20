@@ -1,0 +1,263 @@
+  <!-- aca empieza la barra de navegacion -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" data-scroll href="#historia">Historia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" data-scroll href="#nosotros">Nosotros <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" data-scroll href="#novedades">Novedades <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" data-scroll href="#testimonios">Testimonios <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-scroll href="#nosotros" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Nosotros
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" data-scroll href="#">Borges</a>
+            <a class="dropdown-item" data-scroll href="#">Cortázar</a>
+            <a class="dropdown-item" data-scroll href="#">Saenz</a>
+          </div>
+        </li> -->
+        <li class="nav-item active">
+          <a class="nav-link" data-scroll href="#conocenos">Contáctanos <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="busqueda" aria-label="Buscar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div id="home" class="row align-items-center hero">
+      <div class="col-lg-3 offset-lg-2">
+        <p>Bajada</p>
+        <h1>Titulo principal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam aliquid, rem placeat, quasi laborum
+          accusamus dolorum, accusantium maiores ipsum dolorem magni similique iure repellendus inventore debitis maxime
+          tenetur a.</p>
+
+      </div>
+
+    </div>
+    <div id="novedades" class="row py-4">
+      <div class="col-md-5 offset-md-2 py-3">
+        <h2>Novedades</h2>
+        <ul class="lista-novedades">
+          <li><a href="#" data-toggle="modal" data-target="#exampleModal"><img
+                src="/images/libros.jpeg">Nuevas
+              reseñas</a></li>
+          <li><a href="#"><img src="/images/libros.jpeg">Nuevas reseñas</a></li>
+          <li><a href="#"><img src="/images/libros.jpeg">Nuevas reseñas</a></li>
+          <li><a href="#"><img src="/images/libros.jpeg">Nuevas reseñas</a></li>
+
+        </ul>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Cortázar</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis temporibus nam illo dolores numquam
+                exercitationem fuga! Dolores quasi officia maiores magnam quisquam accusamus doloremque sed quibusdam.
+                Dolorum inventore obcaecati delectus.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- cierro modal -->
+
+      <!--  abre testimonios -->
+      <div id="testimonios" class="col-md-3">
+        <div class="rounded py-3 testimonios">
+          <h2 class="text-center">Testimonios</h2>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="testimonios">
+                  <h5>"Si la letra fuera pelota, pocos serian Diegos</h5>
+                  <p>Hector, San Francisco</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonios">
+                  <h5>"Si la letra fuera pelota, pocos serian Diegos</h5>
+                  <p>Hector, San Francisco</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonios">
+                  <h5>"Si la letra fuera pelota, pocos serian Diegos"</h5>
+                  <p>Hector, San Francisco</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!--  cierra testimonios -->
+    </div> <!--  cierra novedades -->
+  </div>
+  <!-- inicio historia -->
+  <div id="historia" class="row aling-items-center py4">
+    <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+      <img src="/images/libros.jpeg" alt="historia1" class="img-fluid">
+    </div>
+    <div class="col-lg-2 col-md-3 d-node d-dm-block">
+      <img src="/images/libros2.jpeg" alt="historia2" class="img-fluid">
+    </div>
+    <div class="col-12 d-sm-none">
+      <img src="/images/libros3.jpg" alt="historia3" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+      <h2>Historia</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam nostrum, dolor illum, quos nesciunt recusandae
+        quia possimus minus necessitatibus eaque corporis molestiae rerum explicabo earum voluptates minima et, delectus
+        aliquid!</p>
+    </div>
+
+  </div>
+
+  <!-- fin de historia -->
+  <br>
+  <!-- principio de nosotros -->
+  <div id="nosotros" class="row-aling-items-stretch my-3 staff py-4">
+    <div class="col-lg-8 offset-lg-2">
+      <h2>Nosotros</h2>
+      <div class="card-deck">
+        <!--inicio card padre -->
+        <div class="card">
+          <img src="/images/nosotros01.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card title">Julietto Carrera</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veniam, quo
+              deserunt reprehenderit
+              rerum, consequatur magni nobis deleniti nulla blanditiis accusamus quod atque, praesentium fuga doloremque
+              non nihil sed repudiandae!</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/nosotros02.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card title">Santiago Gobernori</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veniam, quo
+              deserunt reprehenderit
+              rerum, consequatur magni nobis deleniti nulla blanditiis accusamus quod atque, praesentium fuga doloremque
+              non nihil sed repudiandae!</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/nosotros04.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card title">Carlos Rottemmberg</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veniam, quo
+              deserunt reprehenderit
+              rerum, consequatur magni nobis deleniti nulla blanditiis accusamus quod atque, praesentium fuga doloremque
+              non nihil sed repudiandae!</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/nosotros44.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card title">Norma Aleandro</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veniam, quo
+              deserunt reprehenderit
+              rerum, consequatur magni nobis deleniti nulla blanditiis accusamus quod atque, praesentium fuga doloremque
+              non nihil sed repudiandae!</p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!-- final de nosotros -->
+  <br>
+  <!-- inicio conocenos -->
+  <div class="conocenos">
+    <div id="conocenos" class="row py-4">
+      <div class="col-md-4 offset-md-2">
+        <h2>Visitanos</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1952583448606!2d-58.44799538483425!3d-34.624505666105165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca39f5483e8d%3A0xdc5e3eaeec75346a!2sAv.%20Juan%20Bautista%20Alberdi%201274%2C%20C1424%20CABA!5e0!3m2!1ses!2sar!4v1660093123230!5m2!1ses!2sar"
+            style="border:0;" allowfullscreen></iframe>
+        </div>
+
+      </div>
+      <div class="col-md-4 mt-4 mt-sm-0">
+        <h2>Contactanos</h2>
+        <form action="/" method="post">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputname">Nombre</label>
+              <input type="name" class="form-control" id="inputname" name="nombre">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputapellido">Apellido</label>
+              <input type="apellido" class="form-control" id="inputapellido" name="apellido">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail">Mail</label>
+            <input type="text" class="form-control" id="inputEmail" name="email">
+          </div>
+          <div class="form-group">
+            <label for="inputtel">Teléfono</label>
+            <input type="text" class="form-control" id="inputtel" placeholder="..." name="tel">
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" name="mensaje"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <!-- fin de conocenos -->
+  <br>
+  <br>
+
+  <footer>
+    <p class="text-center">Diseñado por Franco Pucheta 2022</p>
+  </footer>
